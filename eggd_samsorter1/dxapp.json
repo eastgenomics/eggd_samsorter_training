@@ -2,7 +2,6 @@
   "name": "eggd_samsorter_training",
   "title": "eggd_samsorter_training",
   "summary": "eggd_samsorter_training",
-  "dxapi": "1.0.0",
   "version": "0.0.1",
   "inputSpec": [
     {
@@ -10,7 +9,7 @@
       "class": "file",
       "optional": false,
       "patterns": [
-        "*"
+        "*.bam"
       ],
       "help": ""
     }
