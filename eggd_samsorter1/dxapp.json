@@ -2,7 +2,7 @@
   "name": "eggd_samsorter1",
   "title": "eggd_samsorter1",
   "summary": "eggd_samsorter1",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "inputSpec": [
     {
       "name": "bam_file",
