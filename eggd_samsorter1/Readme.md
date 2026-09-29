@@ -1,5 +1,5 @@
 <!-- dx-header -->
-# eggd_samsorter_training (DNAnexus Platform App)
+# eggd_samsorter1 (DNAnexus Platform App)
 
 ## What does this app do?
 This app sorts a bam file by its genomic coordinates.
@@ -12,7 +12,7 @@ The app outputs a .sorted.bam file as an output.
 
 ## How to run this app from the command line?
 ```bash
-dx run eggd_samsorter_training -iinput_file=
+dx run eggd_samsorter1 -i bam_file=filename.bam
 ```
 
 This is the source code for an app that runs on the DNAnexus Platform.
