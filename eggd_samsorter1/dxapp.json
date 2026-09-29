@@ -1,7 +1,7 @@
 {
-  "name": "eggd_samsorter_training",
-  "title": "eggd_samsorter_training",
-  "summary": "eggd_samsorter_training",
+  "name": "eggd_samsorter1",
+  "title": "eggd_samsorter1",
+  "summary": "eggd_samsorter1",
   "version": "0.0.1",
   "inputSpec": [
     {
@@ -16,8 +16,8 @@
   ],
   "outputSpec": [
     {
-      "name":"sorted_bam_file",
-      "class":"file",
+      "name": "sorted_bam_file",
+      "class": "file",
       "patterns": [
         "*"
       ],
@@ -31,15 +31,15 @@
       }
     },
     "interpreter": "bash",
-    "file": "src/eggd_samsorter_training.sh",
+    "file": "src/eggd_samsorter1.sh",
     "distribution": "Ubuntu",
     "release": "24.04",
     "version": "0",
     "assetDepends": [
       {
-         "name": "htslib_suite_asset",
-         "version": "1.24", 
-         "id":"record-J9QzZyj487v9Gj2QgP7vK47g"
+       "name":"htslib_suite_asset",
+       "version":"1.24",
+       "id":"record-J9QzZyj487v9Gj2QgP7vK47g"
       }
     ]
   },
@@ -53,7 +53,7 @@
     "aws:eu-central-1": {
       "systemRequirements": {
         "*": {
-          "instanceType": "mem1_ssd1_v2_x2"
+          "instanceType": "mem1_ssd1_v2_x4"
         }
       }
     }
